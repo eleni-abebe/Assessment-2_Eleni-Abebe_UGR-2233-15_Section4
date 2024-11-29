@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(36, 35, 35);
+}
+blockquote {
+    margin-left: 230px;
+    padding-top: 10px;
+}
+
+.title {
+    margin-left: 180px;
+    font-size: 60px;
+}
+
+.title span {
+    color: rgb(128, 102, 71);
+}
+
+.Top-nav {
+    margin-left: 180px;
+    display: flex;
+    text-align: center;
+}
+
+.Top-nav a {
+    margin-right: 15px;
+    background-color: bisque;
+    width: 80px;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(93, 60, 60);
+}
+
+.Top-nav a:hover {
+    background-color: rgb(77, 67, 67);
+    color: whitesmoke;
+}
+.Top-nav a.active {
+    background-color: rgb(93, 60, 60);
+    color: whitesmoke; 
+}
+.bdy,
+.contact-container,
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 170px;
+    padding-right: 15px;
+}
+
+.sidebar {
+    padding: 10px;
+    margin-left:10px;
+    width:600px;
+}
+.sidebar li{
+    list-style: none;
+    margin-top: 10px;
+}
+.sidebar a{
+    text-decoration: none; 
+    color:rgb(93, 60, 60);
+}
+
+.sponsor p{
+    font-size: smaller;
+    margin-top:4px;
+}
+.sp1,
+.sp2,
+.sp3{
+   margin-top:20px; 
+
+}
+.top,
+.bottom{
+    display:flex;
+    justify-content: space-between;
+}
+.top .section1,
+.bottom .section2
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    width:280px;
+
+}
+
+main img {
+    width: 240px;
+    height: 120px;
+}
+
+h2 {
+    color: rgb(28, 145, 94);
+    margin: 8px 0;
+}
+
+h4 {
+    color: rgb(125, 104, 79);
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+p {
+    color: #2d542d;
+}
+
+section a {
+    color: rgb(25, 203, 25);
+}
+.cont3 a,
+.cont2 a,
+.ref,
+.read {
+    color: rgb(125, 53, 69);
+    font-weight: bolder;
+}
+.end-footer{
+    background-color: rgb(36, 35, 35);
+    width:100%;
+    height:320px;
+}
+.bottom-container {
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left:20px;
+    margin: 5px 170px;
+    padding-right: 25px;
+}
+
+.cont1, .cont2 ,.cont3{
+    margin-bottom: 20px;
+    padding: 15px;
+    width:750px;
+}
+.cont1 figure{
+    display:flex;
+    flex-direction: column;
+    width:250px;
+}
+.cont1 figure img ,
+.cont2 img{
+    width: 70px;
+    height: 67px;
+    margin:1px;
+}
+.cont2 img{
+    float:left;
+    box-shadow: 0 0 0 2px rgb(36, 35, 35);
+    margin:1px 7px;
+}
+.cont3 li{
+    list-style: none;
+    margin-top:12px;
+}
+.end{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(42, 41, 41);
+    height:35px;
+    margin-top:5px;
+}
+.end p{
+    padding:4px;
+    margin:5px; 
+}
+
+.end nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.end nav a {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(93, 60, 60);
+    margin:5px;
+    padding:4px;
+ 
+}
+.end nav a:hover{
+    color:white;
+}
+
+.bdy .section1,
+.bdy .section2{
+    width:650px;
+    margin: 40px 0px;
+}
+.bdy .section1 span,
+.bdy .section2 span{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.bdy .section1 p,
+.bdy .section2 p {
+    margin-top: 20px; 
+}
+
+.about-main span {
+    display: block; 
+    margin-top: 10px; 
+}
+#name,
+#email,
+#website,
+#message{
+    width:450px;
+    height:20px;
+    margin-bottom:20px;
+    padding:3px;
+}
+button{
+    width:80px;
+    height:25px;
+    background-color:whitesmoke;
+    padding:3px;
+    margin:20px 0px;
+}
+button:hover{
+    background-color: #2d542d;
+}
+.contact-container p,
+.contact-container h2{
+    margin-top: 20px;
+}
